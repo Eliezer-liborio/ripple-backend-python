@@ -1,8 +1,8 @@
-# 🎵 Ripple Backend - Python + Flask
+# Ripple Backend - Python + Flask
 
 Backend da plataforma Ripple de experiências ao vivo, desenvolvido em Python com Flask e PostgreSQL.
 
-## 🚀 Início Rápido
+## Início Rápido
 
 ### Pré-requisitos
 - Python 3.8+
@@ -34,13 +34,13 @@ Servidor rodará em `http://localhost:5000`
 
 ---
 
-## 📚 Documentação Completa
+##Documentação Completa
 
 Veja [SETUP_GUIDE.md](./SETUP_GUIDE.md) para instruções detalhadas de setup.
 
 ---
 
-## 🔌 Endpoints da API
+## Endpoints da API
 
 ### Autenticação
 - `POST /api/users/signup` - Criar conta
@@ -78,7 +78,7 @@ Veja [SETUP_GUIDE.md](./SETUP_GUIDE.md) para instruções detalhadas de setup.
 
 ---
 
-## 🗄️ Banco de Dados
+## Banco de Dados
 
 ### Modelos
 - **User** - Usuários da plataforma
@@ -94,7 +94,7 @@ psql -U ripple_user -d ripple_db -h localhost
 
 ---
 
-## 🔐 Segurança
+## Segurança
 
 - Senhas hasheadas com bcrypt
 - JWT com access tokens (15 min)
@@ -104,7 +104,7 @@ psql -U ripple_user -d ripple_db -h localhost
 
 ---
 
-## 📦 Dependências
+## Dependências
 
 - **Flask** - Framework web
 - **Flask-CORS** - CORS handling
@@ -116,7 +116,7 @@ psql -U ripple_user -d ripple_db -h localhost
 
 ---
 
-## 🛠️ Desenvolvimento
+## Desenvolvimento
 
 ### Estrutura do Projeto
 
@@ -152,7 +152,7 @@ def nova_rota():
 
 ---
 
-## 🚢 Deploy
+## Deploy
 
 ### Para Produção
 
@@ -167,13 +167,13 @@ def nova_rota():
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 Veja [SETUP_GUIDE.md - Troubleshooting](./SETUP_GUIDE.md#-troubleshooting)
 
 ---
 
-## 📝 Variáveis de Ambiente
+## Variáveis de Ambiente
 
 | Variável | Descrição | Padrão |
 |----------|-----------|--------|
@@ -189,7 +189,7 @@ Veja [SETUP_GUIDE.md - Troubleshooting](./SETUP_GUIDE.md#-troubleshooting)
 
 ---
 
-## 📞 Suporte
+## Suporte
 
 Para problemas, consulte:
 1. [SETUP_GUIDE.md](./SETUP_GUIDE.md)
@@ -198,11 +198,11 @@ Para problemas, consulte:
 
 ---
 
-## 📄 Licença
+## Licença
 
 MIT
 
 ---
 
-**Status:** ✅ Pronto para desenvolvimento
+**Status:** Pronto para desenvolvimento
 **Última atualização:** 2025-12-15
